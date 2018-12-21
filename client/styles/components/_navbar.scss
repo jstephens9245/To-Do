@@ -1,0 +1,80 @@
+.navbar {
+  border-bottom: 1px solid black;
+  margin-bottom: 0;
+  background: $white;
+  z-index: 99999;
+}
+
+.nav-no {
+  background-color: #363636;
+  color: white;
+  padding: 0.2em;
+  font-style:italic;
+  margin-right: 0.1em;
+  border-radius: 2px;
+  font-family: "Permanent Marker";
+  font-size: 1.3em;
+}
+
+.nav-tion {
+  font-size: 1.3em;
+}
+
+.navbar a {
+  color: $black;
+}
+.icon-bar {
+  background-color: black;
+}
+
+.navbar-toggle {
+  border-color: black
+}
+
+.navClass {
+  top: -100%;
+  transition: all 0.5s ease;
+}
+
+.navToggle {
+  top: 0;
+}
+.navTitle {
+  display: none;
+}
+
+.navbar-newsfeed {
+  font-size: 1.1em;
+  text-align: center;
+  position: relative;
+}
+
+.navbar-newsfeed-number {
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  line-height: 1.1em;
+  background-color: #4099FF;
+  border-radius: 50%;
+  width:1.1em;
+  height: 1.1em;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+@media screen
+  and (min-width: 768px) {
+
+    .navbarGearIcon {
+      display: none;
+    }
+    .navTitle {
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .navbar-newsfeed-number {
+      right: 0%;
+    }
+  }
