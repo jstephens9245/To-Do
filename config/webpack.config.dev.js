@@ -26,37 +26,47 @@ var config = {
           paths.src
         ],
         loader: 'babel-loader',
-        test  : /(\.js|\.jsx)$/
+        test  : /(\.js|\.jsx)$/,
       },
+      // {
+      //   exclude: /node_modules/,
+      //   include: [
+      //     paths.src
+      //   ],
+      //
+      //   loader : extractSass.extract([ 'css', 'postcss', 'sass' ]),
+      //   loaders: [ 'style', 'css', 'postcss', 'sass-loader' ],
+      // },
       {
         exclude: /node_modules/,
         include: [
           paths.src
         ],
-
-        // loader : extractSass.extract([ 'css', 'postcss', 'sass' ]),
-        loaders: [ 'style', 'css', 'postcss', 'sass-loader' ],
-        test   : /\.scss$/
+        test   : /\.scss$/,
+        use: [{
+            loader: "style-loader" // creates style nodes from JS strings
+        }, {
+            loader: "css-loader" // translates CSS into CommonJS
+        }, {
+            loader: "postcss-loader" // compiles Sass to CSS
+        }, {
+            loader: "sass-loader" // compiles Sass to CSS
+        }]
       },
       {
-        loaders: [ 'style', 'css', 'postcss' ],
-        test   : /\.css$/
+        test: /\.css$/,
+        use: [{
+            loader: "style-loader" // creates style nodes from JS strings
+        }, {
+            loader: "css-loader" // translates CSS into CommonJS
+        }, {
+            loader: "postcss-loader" // compiles Sass to CSS
+        }]
       },
-      // {
-      //   use: ExtractTextPlugin.extract({
-      //   fallback: "style-loader",
-      //   use: "css-loader",
-      //   publicPath: "/dist"
-      // }),
-      // }
-      // {
-      //   loader: 'json',
-      //   test  : /\.json$/
-      // },
       // postLoaders: [
       //
       // ],
-
+      //
       // {
       //   enforce: "pre",
       //   exclude: /node_modules/,
@@ -64,13 +74,14 @@ var config = {
       //   query  : {presets: [ 'react', 'latest' ]},
       //   test   : /\.jsx$/
       // }
-    ],
+    ]
   },
   output: {
     filename  : 'bundle.js',
     path      : paths.dist,
     publicPath: '/'
   },
+
   plugins: [
     extractSass,
     new HtmlWebpackPlugin({
@@ -105,7 +116,7 @@ var config = {
       basscss    : paths.resolve(paths.nodeModules, 'basscss', 'css', 'basscss.css'),
       nodeModules: paths.nodeModules
     }
-  }
+  },
 };
 
 module.exports = config;

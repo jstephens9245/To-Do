@@ -1,0 +1,2 @@
+config.devtool	/Users/josephstephens/Desktop/To-Do/config/webpack.config.dev.js	/^var config = {$/;"	property	line:16
+config.entry	/Users/josephstephens/Desktop/To-Do/config/webpack.config.dev.js	/^  devtool: 'source-map',$/;"	property	line:17
