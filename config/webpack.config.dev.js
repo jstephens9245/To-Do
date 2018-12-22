@@ -65,9 +65,6 @@ var config = {
     path      : paths.dist,
     publicPath: '/'
   },
-  optimization: {
-    minimizer: [new TerserPlugin()],
-  },
   plugins: [
     extractSass,
     new HtmlWebpackPlugin({
