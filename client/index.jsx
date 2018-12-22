@@ -1,6 +1,6 @@
 /** Style Imports **/
-import 'normalize.css';
-import 'basscss';
+import '/normalize.css';
+import '/basscss';
 import './styles/main.scss';
 
 /** END: Style Imports **/

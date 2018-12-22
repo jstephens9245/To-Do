@@ -18,15 +18,14 @@ var config = {
   entry  : [
     paths.indexJs
   ],
-  eslint: {configFile: paths.eslint},
   module: {
-    loaders: [
+    rules: [
       {
         exclude: /node_modules/,
         include: [
           paths.src
         ],
-        loader: 'babel',
+        loader: 'babel-loader',
         test  : /(\.js|\.jsx)$/
       },
       {
@@ -36,29 +35,36 @@ var config = {
         ],
 
         // loader : extractSass.extract([ 'css', 'postcss', 'sass' ]),
-        loaders: [ 'style', 'css', 'postcss', 'sass' ],
+        loaders: [ 'style', 'css', 'postcss', 'sass-loader' ],
         test   : /\.scss$/
       },
       {
         loaders: [ 'style', 'css', 'postcss' ],
         test   : /\.css$/
       },
-      {
-        loader: 'json',
-        test  : /\.json$/
-      }
-    ],
-    postLoaders: [
+      // {
+      //   use: ExtractTextPlugin.extract({
+      //   fallback: "style-loader",
+      //   use: "css-loader",
+      //   publicPath: "/dist"
+      // }),
+      // }
+      // {
+      //   loader: 'json',
+      //   test  : /\.json$/
+      // },
+      // postLoaders: [
+      //
+      // ],
 
+      // {
+      //   enforce: "pre",
+      //   exclude: /node_modules/,
+      //   loader : 'eslint',
+      //   query  : {presets: [ 'react', 'latest' ]},
+      //   test   : /\.jsx$/
+      // }
     ],
-    preLoaders: [
-      {
-        exclude: /node_modules/,
-        loader : 'eslint',
-        query  : {presets: [ 'react', 'latest' ]},
-        test   : /\.jsx$/
-      }
-    ]
   },
   output: {
     filename  : 'bundle.js',
@@ -76,18 +82,24 @@ var config = {
     }),
     new CaseSensitivePathsPlugin(),
     new WatchNodeModulesPlugin(paths.appNodeModules),
-    new webpack.HotModuleReplacementPlugin({multistep: true})
-  ],
-  postcss: () => [
-    autoprefixer({
-      browsers: [
-        '>1%',
-        'last 4 versions',
-        'Firefox ESR',
-        'not ie < 9'
-      ]
-    })
-  ],
+    new webpack.HotModuleReplacementPlugin({multistep: true}),
+    new webpack.LoaderOptionsPlugin({
+      options: {
+
+        postcss: () => [
+          autoprefixer({
+            browsers: [
+              '>1%',
+              'last 4 versions',
+              'Firefox ESR',
+              'not ie < 9'
+            ]
+          })
+        ],
+        eslint: {configFile: paths.eslint},
+      }
+  })
+],
   resolve: {
     alias: {
       basscss    : paths.resolve(paths.nodeModules, 'basscss', 'css', 'basscss.css'),
