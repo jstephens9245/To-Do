@@ -1,2 +1,91 @@
 config.devtool	/Users/josephstephens/Desktop/To-Do/config/webpack.config.dev.js	/^var config = {$/;"	property	line:16
 config.entry	/Users/josephstephens/Desktop/To-Do/config/webpack.config.dev.js	/^  devtool: 'source-map',$/;"	property	line:17
+dark-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$dark-gray: #333c4e;$/;"	function	line:1
+light-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$light-gray: #7e8890;$/;"	function	line:2
+.homepage-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.homepage-container {$/;"	function	line:4
+.homepage-main-image-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.homepage-main-image-container {$/;"	function	line:10
+.homepage-main-image	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.homepage-main-image {$/;"	function	line:14
+.main-slogan	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-slogan {$/;"	function	line:19
+.main-mini-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-mini-desc {$/;"	function	line:32
+input:focus	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^input:focus{$/;"	function	line:44
+button:focus	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^button:focus {$/;"	function	line:48
+.main-signup-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-signup-button-container {$/;"	function	line:52
+.main-signup-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-signup-button {$/;"	function	line:60
+.main-signup-button:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-signup-button:hover {$/;"	function	line:72
+.postit-view	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.postit-view {$/;"	function	line:77
+.bulb-img	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.bulb-img{$/;"	function	line:87
+.postit	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.postit{$/;"	function	line:92
+.postit:nth-child(even)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.postit:nth-child(even){$/;"	function	line:106
+.postit:nth-child(odd)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.postit:nth-child(odd){$/;"	function	line:111
+.yellow	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.yellow{$/;"	function	line:116
+.lightyellow	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.lightyellow {$/;"	function	line:120
+.pink	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.pink{$/;"	function	line:124
+.green	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.green{$/;"	function	line:127
+.blue	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.blue{$/;"	function	line:131
+.brightgreen	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.brightgreen {$/;"	function	line:135
+.border-line	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.border-line {$/;"	function	line:139
+.desc-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.desc-container {$/;"	function	line:146
+.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc {$/;"	function	line:150
+.left-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc-title{$/;"	function	line:156
+.left-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc-content{$/;"	function	line:163
+.right-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc {$/;"	function	line:171
+img	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  img {$/;"	function	line:173
+.right-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc-title{$/;"	function	line:177
+.right-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc-content{$/;"	function	line:184
+.team-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.team-desc {$/;"	function	line:193
+@media screen and (min-device-width: 414px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 414px) {$/;"	function	line:198
+.main-slogan	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-slogan {$/;"	function	line:200
+.main-mini-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-mini-desc {$/;"	function	line:206
+.main-signup-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button {$/;"	function	line:211
+.postit	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .postit {$/;"	function	line:216
+@media screen and (min-device-width: 768px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 768px) {$/;"	function	line:227
+.main-slogan	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-slogan {$/;"	function	line:229
+.main-mini-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-mini-desc {$/;"	function	line:235
+.main-signup-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button-container {$/;"	function	line:241
+.main-signup-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button {$/;"	function	line:245
+.postit	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .postit {$/;"	function	line:250
+.desc-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .desc-container {$/;"	function	line:257
+.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc {$/;"	function	line:264
+.left-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc-title{$/;"	function	line:275
+.left-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc-content{$/;"	function	line:281
+.right-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc {$/;"	function	line:289
+.right-desc-img	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc-img{$/;"	function	line:294
+.team-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .team-desc {$/;"	function	line:298
+@media screen and (min-device-width: 1024px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 1024px) {$/;"	function	line:314
+.homepage-main-image	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .homepage-main-image {$/;"	function	line:316
+.main-slogan	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-slogan {$/;"	function	line:321
+.main-mini-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-mini-desc {$/;"	function	line:328
+.main-signup-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button-container {$/;"	function	line:333
+.main-signup-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button {$/;"	function	line:337
+.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc {$/;"	function	line:342
+.border-line	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .border-line {$/;"	function	line:346
+.Typist .Cursor--blinking	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .Typist .Cursor--blinking {$/;"	function	line:351
+@keyframes blink	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@keyframes blink {$/;"	function	line:355
+0%	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  0% {$/;"	function	line:356
+50%	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  50% {$/;"	function	line:358
+100%	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  100% {$/;"	function	line:360
+constructor	/Users/josephstephens/Desktop/To-Do/client/components/Homepage.js	/^  constructor(props) {$/;"	function	line:6
+render	/Users/josephstephens/Desktop/To-Do/client/components/Homepage.js	/^  render() {$/;"	function	line:13
+constructor	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^  constructor(props) {$/;"	function	line:8
+state.filterStatus	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^    this.state = {$/;"	property	line:10
+state.todo_item	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^      filterStatus: "all",$/;"	property	line:11
+submitForm	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^  submitForm(e) {$/;"	function	line:21
+filterChange	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^  filterChange(filterValue) {$/;"	function	line:26
+handleInput	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^  handleInput(e) {$/;"	function	line:30
+render	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^  render() {$/;"	function	line:34
+removeOne	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^    removeOne: function(toDoId) {$/;"	function	line:63
+removeAll	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^    removeAll: function() {$/;"	function	line:66
+rootReducer	/Users/josephstephens/Desktop/To-Do/client/reducers/rootReducer.js	/^export default function rootReducer(store, action) {$/;"	function	line:16
+const.allToDoIDs	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^const initialState = {$/;"	property	line:4
+switch	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^  switch (action.type) {$/;"	function	line:13
+removeOne	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeOne: function(toDoId) {$/;"	function	line:20
+removeAll	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeAll: function() {$/;"	function	line:23
+getAllToDos	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    getAllToDos: function() {$/;"	function	line:26
+constructor	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  constructor(props) {$/;"	function	line:34
+state.filterStatus	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    this.state = {$/;"	property	line:36
+state.todo_item	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      filterStatus: "all",$/;"	property	line:37
+componentDidMount	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  componentDidMount() {$/;"	function	line:45
+submitForm	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  submitForm(e) {$/;"	function	line:48
+filterChange	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  filterChange(filterValue) {$/;"	function	line:54
+handleInput	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  handleInput(e) {$/;"	function	line:58
+render	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  render() {$/;"	function	line:63

@@ -4,3 +4,14 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+removeOne	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeOne: function(toDoId) {$/;"	function	line:20
+removeAll	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeAll: function() {$/;"	function	line:23
+getAllToDos	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    getAllToDos: function() {$/;"	function	line:26
+constructor	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  constructor(props) {$/;"	function	line:34
+state.filterStatus	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    this.state = {$/;"	property	line:36
+state.todo_item	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      filterStatus: "all",$/;"	property	line:37
+componentDidMount	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  componentDidMount() {$/;"	function	line:45
+submitForm	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  submitForm(e) {$/;"	function	line:48
+filterChange	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  filterChange(filterValue) {$/;"	function	line:54
+handleInput	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  handleInput(e) {$/;"	function	line:58
+render	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  render() {$/;"	function	line:63

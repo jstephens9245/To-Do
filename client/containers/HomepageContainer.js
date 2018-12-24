@@ -1,58 +1,86 @@
 import React, { Component } from 'react';
+import {connect} from 'react-redux';
 import { Link } from 'react-router';
-import Typist from 'react-typist';
+import {createToDo, deleteToDo, deleteAllToDo, getAllToDos} from '../actions/todo';
 
-export default class HomePageContainer extends Component {
+
+const mapStateToProps = (state) => {
+  return {
+    allToDoIDs: state.todo.allToDoIDs,
+    activeToDo: state.todo.activeToDo,
+    completedToDo: state.todo.completedToDo
+  }
+};
+
+const mapDispatchToProps = (dispatch, ownProps) => {
+  return {
+    create: (toDoItem) => {
+      dispatch(createToDo(toDoItem));
+    },
+    removeOne: function(toDoId) {
+      dispatch(deleteToDo(toDoId));
+    },
+    removeAll: function() {
+      dispatch(deleteAllToDo({}));
+    },
+    getAllToDos: function() {
+      dispatch(getAllToDos());
+    }
+  };
+};
+
+class HomePageContainer extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-
+      filterStatus: "all",
+      todo_item: "",
     };
+
+    this.submitForm = this.submitForm.bind(this);
+    this.handleInput = this.handleInput.bind(this);
+    this.filterChange = this.filterChange.bind(this);
+  }
+  componentDidMount() {
+    this.props.getAllToDos();
+  }
+  submitForm(e) {
+    e.preventDefault();
+    this.props.create(this.state.todo_item);
+    this.setState({todo_item: ""});
   }
 
+  filterChange(filterValue) {
+    this.setState({filterStatus: filterValue});
+  }
+
+  handleInput(e) {
+    this.setState({[e.target.name]: e.target.value});
+  }
+
+
   render() {
+    // console.log("function test array value?", Array.isArray(this.props.allToDo))
     return (
       <div className="homepage-container">
+        <form className="form" onSubmit={(e) => { this.submitForm(e); }}>
+          <div>
+            <input type="text" name="todo_item" placeholder="your To Do's!"
+              className="to-do-input-field"
+              onChange={(e) => { this.handleInput(e); }}
+              required />
+          </div>
+          <button className={'toDo-submit-button'} type="submit">
+          Submit
+          </button>
+          <a>there are currently {this.props.activeToDo.length} active tasks remaining</a>
+        </form>
+        <button onClick={() => { this.props.removeAll(this.props.allToDoIDs); }}>
+          Delete All
+        </button>
+        <div className="To-Do-list">
 
-        <div className="homepage-main-image-container">
-          <img className="homepage-main-image" src="/assets/brainstorm.jpg"></img>
-          <div className="main-slogan">
-          <Typist avgTypingDelay={130}>
-          THINK BETTER. FASTER. TOGETHER.
-          </Typist>
-          </div>
-          <div className="main-mini-desc"> Your collaboration & brainstorming platform
-          </div>
-          <div className="main-signup-button-container">
-            <Link to="/signup">
-            <button type="button" className="main-signup-button">GET STARTED</button>
-            </Link>
-          </div>
-
-          <div className="postit-view">
-            <div className="postit yellow">
-              <img className="bulb-img" src="/assets/bulb.png" />
-            </div>
-            <div className="postit lightyellow">
-              N
-            </div>
-            <div className="postit brightgreen">
-              O
-            </div>
-            <div className="postit pink">
-              T
-            </div>
-            <div className="postit yellow">
-              I
-            </div>
-            <div className="postit blue">
-              O
-            </div>
-            <div className="postit green">
-              N
-            </div>
-          </div>
         </div>
 
         <div className="border-line"/>
@@ -60,27 +88,49 @@ export default class HomePageContainer extends Component {
         <div className="desc-container">
             <div className="left-desc">
               <div className="left-desc-title">
-                  Real-time collaboration.
+                  Active To-Do's.
               </div>
               <div className="left-desc-content">
-                 Unite with your team and brainstorm ideas in your own dynamic board. Create context around your projects with Boards—flexible spaces to store, share, and talk about your own ideas.
+                {
+                  this.props.activeToDo.length ?
+                  (this.props.activeToDo.map((todo) => {
+                      return (
+                        <div key={todo.id}>
+                        {todo.to_do}
+                        <button onClick={() => { this.props.removeOne(todo.id); }}>
+                          X
+                        </button>
+                        </div>
+                      )
+                  })) : null
+                }
               </div>
 
             </div>
 
-            <div className="right-desc">
-              <img className="right-desc-img" src="/assets/collaborator-view-2.png" />
+            <div className="left-desc">
+              <div className="left-desc-title">
+                  Completed To-Do's.
+              </div>
+              <div className="left-desc-content">
+                 Unite with your team and brainstorm ideas in your own dynamic
+                 board. Create context around your projects with Boards—flexible
+                 spaces to store, share, and talk about your own ideas.
+              </div>
             </div>
         </div>
 
         <div className="team-desc">
-          Made by Alvin Yuen, Spencer Goodwine, Hal Carleton & Joe Stephens
+          Made by Joe Stephens
         </div>
 
       </div>
     );
   }
 }
+const ToDoContainer = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(HomePageContainer);
 
-
-
+export default ToDoContainer

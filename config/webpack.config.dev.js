@@ -61,19 +61,19 @@ var config = {
             loader: "css-loader" // translates CSS into CommonJS
         }, {
             loader: "postcss-loader" // compiles Sass to CSS
-        }]
+        }],
+      },
+      {
+        enforce: "pre",
+        exclude: /node_modules/,
+        loader : 'eslint-loader',
+        query  : {presets: [ 'react', 'latest' ]},
+        test   : /\.jsx$/
       },
       // postLoaders: [
       //
       // ],
       //
-      // {
-      //   enforce: "pre",
-      //   exclude: /node_modules/,
-      //   loader : 'eslint',
-      //   query  : {presets: [ 'react', 'latest' ]},
-      //   test   : /\.jsx$/
-      // }
     ]
   },
   output: {

@@ -174,10 +174,21 @@ button:focus {
     box-shadow: 0 0 1px rgba(76,86,103,.25), 0 2px 18px rgba(31,37,50,.32);
   }
 }
-
-.right-desc-img{
+.right-desc-title{
   width: 100%;
+  text-align:center;
+  font-weight: 300;
+  font-size:1.5rem;
 }
+
+.right-desc-content{
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  color: $light-gray;
+  font-size: 1rem;
+}
+
 
 .team-desc {
   display: none;
@@ -251,8 +262,8 @@ button:focus {
   }
 
   .left-desc {
-    width: 50%;
-    padding: 2em 5em;
+    width: 45%;
+    padding: 5%;
     line-height: 3em;
     height: 28.8rem;
     display: flex;
@@ -351,4 +362,3 @@ button:focus {
 
 
 }
-

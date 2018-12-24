@@ -2,10 +2,12 @@ import {CLEAR_STORE} from '../constants';
 import {combineReducers} from 'redux';
 // import userReducer from './userReducer';
 import navbarReducer from './navbarReducer';
+import todoReducer from './todoReducer';
 
 
 export const combinedReducer = combineReducers({
   // userReducer,
+  todo: todoReducer,
   nav: navbarReducer,
 
 
