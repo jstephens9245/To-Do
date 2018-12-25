@@ -4,5 +4,58 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-const.allToDoIDs	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^const initialState = {$/;"	property	line:4
-switch	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^  switch (action.type) {$/;"	function	line:13
+dark-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$dark-gray: #333c4e;$/;"	function	line:1
+light-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$light-gray: #7e8890;$/;"	function	line:2
+.homepage-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.homepage-container {$/;"	function	line:4
+.hidden	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.hidden {$/;"	function	line:10
+input:focus	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^input:focus{$/;"	function	line:14
+button:focus	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^button:focus {$/;"	function	line:18
+.main-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-button-container {$/;"	function	line:22
+.to-do-input-field	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-input-field {$/;"	function	line:30
+.render-buttons	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.render-buttons {$/;"	function	line:36
+.to-do-items	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-items {$/;"	function	line:40
+.show-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.show-button {$/;"	function	line:46
+.show-button:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.show-button:hover {$/;"	function	line:58
+.to-do-delete-btn	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-delete-btn {$/;"	function	line:63
+.to-do-delete-btn:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-delete-btn:hover {$/;"	function	line:74
+.to-do-status-btn	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-status-btn {$/;"	function	line:79
+.to-do-status-btn:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-status-btn:hover {$/;"	function	line:87
+.main-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-button {$/;"	function	line:92
+.main-button:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-button:hover {$/;"	function	line:104
+.border-line	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.border-line {$/;"	function	line:109
+.desc-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.desc-container {$/;"	function	line:116
+.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc {$/;"	function	line:120
+.left-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc-title{$/;"	function	line:126
+.left-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc-content{$/;"	function	line:133
+.right-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc {$/;"	function	line:141
+.right-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc-title{$/;"	function	line:148
+.right-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc-content{$/;"	function	line:155
+.team-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.team-desc {$/;"	function	line:163
+@media screen and (min-device-width: 414px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 414px) {$/;"	function	line:168
+.main-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button {$/;"	function	line:170
+@media screen and (min-device-width: 768px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 768px) {$/;"	function	line:178
+.main-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button-container {$/;"	function	line:180
+.active-tasks	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .active-tasks {$/;"	function	line:184
+.to-do-input-field	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .to-do-input-field {$/;"	function	line:188
+// .to-do-delete-btn	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  \/\/ .to-do-delete-btn {$/;"	function	line:193
+// .to-do-status-btn	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  \/\/ .to-do-status-btn {$/;"	function	line:197
+.main-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button {$/;"	function	line:201
+.show-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .show-button {$/;"	function	line:206
+.delete-all-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .delete-all-button {$/;"	function	line:211
+.desc-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .desc-container {$/;"	function	line:216
+.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc {$/;"	function	line:223
+.left-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc-title{$/;"	function	line:235
+.left-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc-content{$/;"	function	line:241
+.right-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc {$/;"	function	line:249
+.right-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc-content{$/;"	function	line:261
+.right-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc-title{$/;"	function	line:269
+.team-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .team-desc {$/;"	function	line:275
+@media screen and (min-device-width: 1024px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 1024px) {$/;"	function	line:291
+.main-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button-container {$/;"	function	line:293
+.input-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .input-container {$/;"	function	line:296
+.form	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .form {$/;"	function	line:303
+.to-do-input-field	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .to-do-input-field {$/;"	function	line:307
+.main-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button {$/;"	function	line:312
+.show-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .show-button {$/;"	function	line:318
+.delete-all-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .delete-all-button {$/;"	function	line:324
+.border-line	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .border-line {$/;"	function	line:331

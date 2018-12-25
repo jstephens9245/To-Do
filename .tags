@@ -1,69 +1,5 @@
 config.devtool	/Users/josephstephens/Desktop/To-Do/config/webpack.config.dev.js	/^var config = {$/;"	property	line:16
 config.entry	/Users/josephstephens/Desktop/To-Do/config/webpack.config.dev.js	/^  devtool: 'source-map',$/;"	property	line:17
-dark-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$dark-gray: #333c4e;$/;"	function	line:1
-light-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$light-gray: #7e8890;$/;"	function	line:2
-.homepage-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.homepage-container {$/;"	function	line:4
-.homepage-main-image-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.homepage-main-image-container {$/;"	function	line:10
-.homepage-main-image	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.homepage-main-image {$/;"	function	line:14
-.main-slogan	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-slogan {$/;"	function	line:19
-.main-mini-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-mini-desc {$/;"	function	line:32
-input:focus	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^input:focus{$/;"	function	line:44
-button:focus	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^button:focus {$/;"	function	line:48
-.main-signup-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-signup-button-container {$/;"	function	line:52
-.main-signup-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-signup-button {$/;"	function	line:60
-.main-signup-button:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-signup-button:hover {$/;"	function	line:72
-.postit-view	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.postit-view {$/;"	function	line:77
-.bulb-img	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.bulb-img{$/;"	function	line:87
-.postit	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.postit{$/;"	function	line:92
-.postit:nth-child(even)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.postit:nth-child(even){$/;"	function	line:106
-.postit:nth-child(odd)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.postit:nth-child(odd){$/;"	function	line:111
-.yellow	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.yellow{$/;"	function	line:116
-.lightyellow	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.lightyellow {$/;"	function	line:120
-.pink	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.pink{$/;"	function	line:124
-.green	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.green{$/;"	function	line:127
-.blue	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.blue{$/;"	function	line:131
-.brightgreen	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.brightgreen {$/;"	function	line:135
-.border-line	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.border-line {$/;"	function	line:139
-.desc-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.desc-container {$/;"	function	line:146
-.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc {$/;"	function	line:150
-.left-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc-title{$/;"	function	line:156
-.left-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc-content{$/;"	function	line:163
-.right-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc {$/;"	function	line:171
-img	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  img {$/;"	function	line:173
-.right-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc-title{$/;"	function	line:177
-.right-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc-content{$/;"	function	line:184
-.team-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.team-desc {$/;"	function	line:193
-@media screen and (min-device-width: 414px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 414px) {$/;"	function	line:198
-.main-slogan	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-slogan {$/;"	function	line:200
-.main-mini-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-mini-desc {$/;"	function	line:206
-.main-signup-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button {$/;"	function	line:211
-.postit	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .postit {$/;"	function	line:216
-@media screen and (min-device-width: 768px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 768px) {$/;"	function	line:227
-.main-slogan	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-slogan {$/;"	function	line:229
-.main-mini-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-mini-desc {$/;"	function	line:235
-.main-signup-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button-container {$/;"	function	line:241
-.main-signup-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button {$/;"	function	line:245
-.postit	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .postit {$/;"	function	line:250
-.desc-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .desc-container {$/;"	function	line:257
-.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc {$/;"	function	line:264
-.left-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc-title{$/;"	function	line:275
-.left-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc-content{$/;"	function	line:281
-.right-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc {$/;"	function	line:289
-.right-desc-img	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc-img{$/;"	function	line:294
-.team-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .team-desc {$/;"	function	line:298
-@media screen and (min-device-width: 1024px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 1024px) {$/;"	function	line:314
-.homepage-main-image	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .homepage-main-image {$/;"	function	line:316
-.main-slogan	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-slogan {$/;"	function	line:321
-.main-mini-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-mini-desc {$/;"	function	line:328
-.main-signup-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button-container {$/;"	function	line:333
-.main-signup-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-signup-button {$/;"	function	line:337
-.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc {$/;"	function	line:342
-.border-line	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .border-line {$/;"	function	line:346
-.Typist .Cursor--blinking	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .Typist .Cursor--blinking {$/;"	function	line:351
-@keyframes blink	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@keyframes blink {$/;"	function	line:355
-0%	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  0% {$/;"	function	line:356
-50%	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  50% {$/;"	function	line:358
-100%	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  100% {$/;"	function	line:360
 constructor	/Users/josephstephens/Desktop/To-Do/client/components/Homepage.js	/^  constructor(props) {$/;"	function	line:6
 render	/Users/josephstephens/Desktop/To-Do/client/components/Homepage.js	/^  render() {$/;"	function	line:13
 constructor	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^  constructor(props) {$/;"	function	line:8
@@ -76,6 +12,8 @@ render	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^
 removeOne	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^    removeOne: function(toDoId) {$/;"	function	line:63
 removeAll	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^    removeAll: function() {$/;"	function	line:66
 rootReducer	/Users/josephstephens/Desktop/To-Do/client/reducers/rootReducer.js	/^export default function rootReducer(store, action) {$/;"	function	line:16
+const.allToDoIDs	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^const initialState = {$/;"	property	line:4
+switch	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^  switch (action.type) {$/;"	function	line:13
 removeOne	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeOne: function(toDoId) {$/;"	function	line:20
 removeAll	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeAll: function() {$/;"	function	line:23
 getAllToDos	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    getAllToDos: function() {$/;"	function	line:26
@@ -83,9 +21,65 @@ editStatus	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContain
 constructor	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  constructor(props) {$/;"	function	line:37
 state.filterStatus	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    this.state = {$/;"	property	line:39
 state.todo_item	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      filterStatus: "all",$/;"	property	line:40
-submitForm	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  submitForm(e) {$/;"	function	line:51
-filterChange	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  filterChange(filterValue) {$/;"	function	line:57
-handleInput	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  handleInput(e) {$/;"	function	line:61
-render	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  render() {$/;"	function	line:66
-const.allToDoIDs	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^const initialState = {$/;"	property	line:4
-switch	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^  switch (action.type) {$/;"	function	line:13
+state.displayAll	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      todo_item: "",$/;"	property	line:41
+state.displayActive	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      displayAll: "",$/;"	property	line:42
+state.displayCompleted	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      displayActive: "",$/;"	property	line:43
+submitForm	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  submitForm(e) {$/;"	function	line:52
+filterChange	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  filterChange(filterValue) {$/;"	function	line:58
+handleInput	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  handleInput(e) {$/;"	function	line:62
+render	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  render() {$/;"	function	line:67
+dark-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$dark-gray: #333c4e;$/;"	function	line:1
+light-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$light-gray: #7e8890;$/;"	function	line:2
+.homepage-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.homepage-container {$/;"	function	line:4
+.hidden	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.hidden {$/;"	function	line:10
+input:focus	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^input:focus{$/;"	function	line:14
+button:focus	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^button:focus {$/;"	function	line:18
+.main-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-button-container {$/;"	function	line:22
+.to-do-input-field	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-input-field {$/;"	function	line:30
+.render-buttons	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.render-buttons {$/;"	function	line:36
+.to-do-items	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-items {$/;"	function	line:40
+.show-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.show-button {$/;"	function	line:46
+.show-button:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.show-button:hover {$/;"	function	line:58
+.to-do-delete-btn	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-delete-btn {$/;"	function	line:63
+.to-do-delete-btn:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-delete-btn:hover {$/;"	function	line:74
+.to-do-status-btn	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-status-btn {$/;"	function	line:79
+.to-do-status-btn:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.to-do-status-btn:hover {$/;"	function	line:87
+.main-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-button {$/;"	function	line:92
+.main-button:hover	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.main-button:hover {$/;"	function	line:104
+.border-line	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.border-line {$/;"	function	line:109
+.desc-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.desc-container {$/;"	function	line:116
+.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc {$/;"	function	line:120
+.left-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc-title{$/;"	function	line:126
+.left-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.left-desc-content{$/;"	function	line:133
+.right-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc {$/;"	function	line:141
+.right-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc-title{$/;"	function	line:148
+.right-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.right-desc-content{$/;"	function	line:155
+.team-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.team-desc {$/;"	function	line:163
+@media screen and (min-device-width: 414px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 414px) {$/;"	function	line:168
+.main-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button {$/;"	function	line:170
+@media screen and (min-device-width: 768px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 768px) {$/;"	function	line:178
+.main-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button-container {$/;"	function	line:180
+.active-tasks	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .active-tasks {$/;"	function	line:184
+.to-do-input-field	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .to-do-input-field {$/;"	function	line:188
+// .to-do-delete-btn	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  \/\/ .to-do-delete-btn {$/;"	function	line:193
+// .to-do-status-btn	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  \/\/ .to-do-status-btn {$/;"	function	line:197
+.main-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button {$/;"	function	line:201
+.show-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .show-button {$/;"	function	line:206
+.delete-all-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .delete-all-button {$/;"	function	line:211
+.desc-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .desc-container {$/;"	function	line:216
+.left-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc {$/;"	function	line:223
+.left-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc-title{$/;"	function	line:235
+.left-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .left-desc-content{$/;"	function	line:241
+.right-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc {$/;"	function	line:249
+.right-desc-content	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc-content{$/;"	function	line:261
+.right-desc-title	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .right-desc-title{$/;"	function	line:269
+.team-desc	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .team-desc {$/;"	function	line:275
+@media screen and (min-device-width: 1024px)	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^@media screen and (min-device-width: 1024px) {$/;"	function	line:291
+.main-button-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button-container {$/;"	function	line:293
+.input-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .input-container {$/;"	function	line:296
+.form	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .form {$/;"	function	line:303
+.to-do-input-field	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .to-do-input-field {$/;"	function	line:307
+.main-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .main-button {$/;"	function	line:312
+.show-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .show-button {$/;"	function	line:318
+.delete-all-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .delete-all-button {$/;"	function	line:324
+.border-line	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .border-line {$/;"	function	line:331

@@ -17,7 +17,6 @@ export default function(state = initialState, action) {
     break;
 
   case GET_ALL_TODO:
-    // console.log(action.to_do, Array.isArray(action.to_do), "array check");
     if(Array.isArray(action.to_do)) {
       console.log(action.to_do, "completed array", action.to_do.status, action.to_do.status === "completed");
       for (var i = 0; i < action.to_do.length; i++) {
@@ -38,26 +37,18 @@ export default function(state = initialState, action) {
     }
     break;
   case CHANGE_STATUS:
-  // console.log(action.to_do.status, "action.status");
-  // console.log(action.to_do, "action");
   var tempArray = [];
-  // console.log(tempArray, "temp before");
 
     if(action.to_do.status === "completed") {
 
       newState.completedToDo = [ ...newState.completedToDo, action.to_do ]
       for (var i = 0; i < newState.activeToDo.length; i++) {
         if(newState.activeToDo[i].id !== action.to_do.id) {
-            // console.log(newState.activeToDo[i] !== action.to_do.id, newState.activeToDo[i]);
             tempArray.push(newState.activeToDo[i])
         }
       }
-      // console.log(tempArray, "tempArray");
       newState.activeToDo = [ ...tempArray ]
-      // console.log(tempArray, "temp after");
 
-      // console.log(newState.activeToDo, "active");
-      // console.log(newState.activeToDo, "completed", action.to_do);
     } else {
       newState.activeToDo = [ ...newState.activeToDo, action.to_do ]
       for (var i = 0; i < newState.completedToDo.length; i++) {
