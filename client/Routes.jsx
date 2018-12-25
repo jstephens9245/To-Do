@@ -18,15 +18,16 @@ import Index from './components/Index';
 
 
 //onEnters
-// function indexEnter() {
-//   store.dispatch(checkLoginStatus());
+function indexEnter() {
+  store.dispatch(getAllToDos());
+}
 
 
 export default function Routes() {
   return (
     <Router history={browserHistory}>
       <Route path="/" component={Index}>
-       <IndexRoute component={HomepageContainer} />
+       <IndexRoute component={HomepageContainer} onEnter={indexEnter} />
      </Route>
     </Router>
   );

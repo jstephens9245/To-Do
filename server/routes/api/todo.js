@@ -15,6 +15,24 @@ router.get('/', (req, res, next) => {
   .catch(next);
 
 });
+router.put('/:id', (req, res, next) => {
+  const changes = {}
+
+  ToDo.findOne({where: {id: Number(req.params.id)}})
+  .then((to_do) => {
+    to_do.status === "active" ? changes.status = "completed" : changes.status = "active"
+    ToDo.update(changes, {
+      where: {
+        id: Number(req.params.id)
+      }
+      }).then(() => {
+        ToDo.findOne({where: {id: Number(req.params.id)}})
+      .then((to_do) => {
+        res.json(to_do);
+      })
+    })
+  }).catch(next);
+});
 
 router.post('/', (req, res, next) => {
   ToDo.create({

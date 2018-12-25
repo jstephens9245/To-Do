@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import { Link } from 'react-router';
-import {createToDo, deleteToDo, deleteAllToDo, getAllToDos} from '../actions/todo';
+import {createToDo, deleteToDo, changeStatus, deleteAllToDo, getAllToDos} from '../actions/todo';
 
 
 const mapStateToProps = (state) => {
@@ -25,6 +25,9 @@ const mapDispatchToProps = (dispatch, ownProps) => {
     },
     getAllToDos: function() {
       dispatch(getAllToDos());
+    },
+    editStatus: function(toDoId) {
+      dispatch(changeStatus(toDoId));
     }
   };
 };
@@ -42,9 +45,9 @@ class HomePageContainer extends Component {
     this.handleInput = this.handleInput.bind(this);
     this.filterChange = this.filterChange.bind(this);
   }
-  componentDidMount() {
-    this.props.getAllToDos();
-  }
+  // componentDidMount() {
+  //   this.props.getAllToDos();
+  // }
   submitForm(e) {
     e.preventDefault();
     this.props.create(this.state.todo_item);
@@ -100,6 +103,9 @@ class HomePageContainer extends Component {
                         <button onClick={() => { this.props.removeOne(todo.id); }}>
                           X
                         </button>
+                        <button onClick={() => { this.props.editStatus(todo.id); }}>
+                          set to complete
+                        </button>
                         </div>
                       )
                   })) : null
@@ -113,9 +119,22 @@ class HomePageContainer extends Component {
                   Completed To-Do's.
               </div>
               <div className="left-desc-content">
-                 Unite with your team and brainstorm ideas in your own dynamic
-                 board. Create context around your projects with Boards—flexible
-                 spaces to store, share, and talk about your own ideas.
+                {
+                  this.props.completedToDo.length ?
+                  (this.props.completedToDo.map((todo) => {
+                      return (
+                        <div key={todo.id}>
+                        {todo.to_do}
+                        <button onClick={() => { this.props.removeOne(todo.id); }}>
+                          X
+                        </button>
+                        <button onClick={() => { this.props.editStatus(todo.id); }}>
+                          set to complete
+                        </button>
+                        </div>
+                      )
+                  })) : null
+                }
               </div>
             </div>
         </div>

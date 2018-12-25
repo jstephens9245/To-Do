@@ -1,4 +1,4 @@
-import { CREATE_TODO, DELETE_TODO, DELETE_ALL_TODO , GET_ALL_TODO } from '../constants' ;
+import { CREATE_TODO, DELETE_TODO, DELETE_ALL_TODO , GET_ALL_TODO, CHANGE_STATUS } from '../constants' ;
 
 
 const initialState = {
@@ -19,11 +19,53 @@ export default function(state = initialState, action) {
   case GET_ALL_TODO:
     // console.log(action.to_do, Array.isArray(action.to_do), "array check");
     if(Array.isArray(action.to_do)) {
-      newState.activeToDo = [ ...newState.activeToDo, ...action.to_do ]
+      console.log(action.to_do, "completed array", action.to_do.status, action.to_do.status === "completed");
+      for (var i = 0; i < action.to_do.length; i++) {
+        if(action.to_do[i].status === "completed") {
+          newState.completedToDo = [ ...newState.completedToDo, action.to_do[i] ]
+        } else {
+          newState.activeToDo = [ ...newState.activeToDo, action.to_do[i] ]
+        }
+      }
       newState.allToDoIDs = [ ...newState.allToDoIDs, ...action.to_do.map((todo) => { return todo.id })]
-      // console.log(action.to_do, "action object");
     } else if(typeof action.to_do === 'object') {
+      if(action.to_do.status === "completed") {
+        console.log(action.to_do, "completed object");
+        newState.completedToDo = [ ...newState.completedToDo, ...action.to_do ]
+      } else {
+        newState.activeToDo = [ ...newState.activeToDo, ...action.to_do ]
+      }
+    }
+    break;
+  case CHANGE_STATUS:
+  // console.log(action.to_do.status, "action.status");
+  // console.log(action.to_do, "action");
+  var tempArray = [];
+  // console.log(tempArray, "temp before");
+
+    if(action.to_do.status === "completed") {
+
+      newState.completedToDo = [ ...newState.completedToDo, action.to_do ]
+      for (var i = 0; i < newState.activeToDo.length; i++) {
+        if(newState.activeToDo[i].id !== action.to_do.id) {
+            // console.log(newState.activeToDo[i] !== action.to_do.id, newState.activeToDo[i]);
+            tempArray.push(newState.activeToDo[i])
+        }
+      }
+      // console.log(tempArray, "tempArray");
+      newState.activeToDo = [ ...tempArray ]
+      // console.log(tempArray, "temp after");
+
+      // console.log(newState.activeToDo, "active");
+      // console.log(newState.activeToDo, "completed", action.to_do);
+    } else {
       newState.activeToDo = [ ...newState.activeToDo, action.to_do ]
+      for (var i = 0; i < newState.completedToDo.length; i++) {
+        if(newState.completedToDo[i].id !== action.to_do.id) {
+            tempArray.push(newState.completedToDo[i])
+        }
+      }
+      newState.completedToDo = [ ...tempArray ]
     }
     break;
 

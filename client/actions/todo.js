@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {browserHistory} from 'react-router';
 
-import { CREATE_TODO, DELETE_TODO, DELETE_ALL_TODO, GET_ALL_TODO } from '../constants' ;
+import { CREATE_TODO, DELETE_TODO, DELETE_ALL_TODO, GET_ALL_TODO, CHANGE_STATUS } from '../constants' ;
 
 export const addToDo = (item) => ({
   type: CREATE_TODO,
@@ -15,6 +15,10 @@ export const removeToDo = (toDoItem) => ({
 
 export const removeAllToDo = () => ({
   type: DELETE_ALL_TODO,
+});
+export const toDoStatusChange = (item) => ({
+  type: CHANGE_STATUS,
+  to_do: item
 });
 
 export const receiveAllToDos = (toDo) => ({
@@ -31,6 +35,14 @@ export const getAllToDos = () => {
       });
   };
 };
+export const changeStatus = (toDoId) => {
+return dispatch => {
+    return axios.put(`/api/todo/${toDoId}`)
+      .then(res => {
+        dispatch(toDoStatusChange(res.data));
+      }).catch(err => { console.error(err); return err; });
+  };
+}
 
 export const createToDo = (to_do) => {
 return dispatch => {
