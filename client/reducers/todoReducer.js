@@ -61,6 +61,25 @@ export default function(state = initialState, action) {
     break;
 
   case DELETE_TODO:
+  console.log(action.to_do);
+  var tempArray = [];
+
+    for (var i = 0; i < newState.activeToDo.length; i++) {
+      if(newState.activeToDo[i].id !== action.to_do) {
+          tempArray.push(newState.activeToDo[i])
+      }
+    }
+    if(tempArray.length < newState.activeToDo.length) {
+      newState.activeToDo = [ ...tempArray ]
+    } else {
+      tempArray = [];
+      for (var i = 0; i < newState.completedToDo.length; i++) {
+        if(newState.completedToDo[i].id !== action.to_do) {
+            tempArray.push(newState.completedToDo[i])
+        }
+      }
+      newState.completedToDo = [ ...tempArray ]
+    }
     break;
 
   case DELETE_ALL_TODO:

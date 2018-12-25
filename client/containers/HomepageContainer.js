@@ -41,18 +41,20 @@ class HomePageContainer extends Component {
       todo_item: "",
       displayAll: "",
       displayActive: "",
-      displayCompleted: ""
+      displayCompleted: "",
+      dirty: false
     };
 
     this.submitForm = this.submitForm.bind(this);
     this.handleInput = this.handleInput.bind(this);
     this.filterChange = this.filterChange.bind(this);
+
+    this.clearContent = this.clearContent.bind(this);
   }
 
   submitForm(e) {
     e.preventDefault();
     this.props.create(this.state.todo_item);
-    this.setState({todo_item: ""});
   }
 
   filterChange(filterValue) {
@@ -62,12 +64,14 @@ class HomePageContainer extends Component {
   handleInput(e) {
     this.setState({[e.target.name]: e.target.value});
   }
-
+  clearContent () {
+    document.getElementById("toDoForm").reset();
+  }
 
   render() {
     return (
       <div className="homepage-container">
-        <form className="form" onSubmit={(e) => { this.submitForm(e); }}>
+        <form id="toDoForm" className="form" onSubmit={(e) => { this.submitForm(e); this.clearContent() } }>
           {/* <div className="input-container"> */}
             <input type="text" name="todo_item" placeholder="Enter your To Do's!"
               className="to-do-input-field"
@@ -76,7 +80,7 @@ class HomePageContainer extends Component {
           {/* </div> */}
           <div className="active-tasks">there are currently {this.props.activeToDo.length} active tasks remaining</div>
           <div className="main-button-container">
-            <button className="main-button" type="submit">
+            <button className="main-button" type="submit" >
             Submit
             </button>
             <button className="main-button" onClick={() => { this.props.removeAll(this.props.allToDoIDs); }}>

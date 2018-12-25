@@ -12,22 +12,6 @@ render	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^
 removeOne	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^    removeOne: function(toDoId) {$/;"	function	line:63
 removeAll	/Users/josephstephens/Desktop/To-Do/client/containers/ToDoContainer.js	/^    removeAll: function() {$/;"	function	line:66
 rootReducer	/Users/josephstephens/Desktop/To-Do/client/reducers/rootReducer.js	/^export default function rootReducer(store, action) {$/;"	function	line:16
-const.allToDoIDs	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^const initialState = {$/;"	property	line:4
-switch	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^  switch (action.type) {$/;"	function	line:13
-removeOne	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeOne: function(toDoId) {$/;"	function	line:20
-removeAll	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeAll: function() {$/;"	function	line:23
-getAllToDos	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    getAllToDos: function() {$/;"	function	line:26
-editStatus	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    editStatus: function(toDoId) {$/;"	function	line:29
-constructor	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  constructor(props) {$/;"	function	line:37
-state.filterStatus	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    this.state = {$/;"	property	line:39
-state.todo_item	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      filterStatus: "all",$/;"	property	line:40
-state.displayAll	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      todo_item: "",$/;"	property	line:41
-state.displayActive	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      displayAll: "",$/;"	property	line:42
-state.displayCompleted	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      displayActive: "",$/;"	property	line:43
-submitForm	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  submitForm(e) {$/;"	function	line:52
-filterChange	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  filterChange(filterValue) {$/;"	function	line:58
-handleInput	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  handleInput(e) {$/;"	function	line:62
-render	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  render() {$/;"	function	line:67
 dark-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$dark-gray: #333c4e;$/;"	function	line:1
 light-gray	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^$light-gray: #7e8890;$/;"	function	line:2
 .homepage-container	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^.homepage-container {$/;"	function	line:4
@@ -83,3 +67,21 @@ button:focus	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homep
 .show-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .show-button {$/;"	function	line:318
 .delete-all-button	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .delete-all-button {$/;"	function	line:324
 .border-line	/Users/josephstephens/Desktop/To-Do/client/styles/components/_homepage.scss	/^  .border-line {$/;"	function	line:331
+const.allToDoIDs	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^const initialState = {$/;"	property	line:4
+switch	/Users/josephstephens/Desktop/To-Do/client/reducers/todoReducer.js	/^  switch (action.type) {$/;"	function	line:13
+removeOne	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeOne: function(toDoId) {$/;"	function	line:20
+removeAll	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    removeAll: function() {$/;"	function	line:23
+getAllToDos	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    getAllToDos: function() {$/;"	function	line:26
+editStatus	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    editStatus: function(toDoId) {$/;"	function	line:29
+constructor	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  constructor(props) {$/;"	function	line:37
+state.filterStatus	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^    this.state = {$/;"	property	line:39
+state.todo_item	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      filterStatus: "all",$/;"	property	line:40
+state.displayAll	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      todo_item: "",$/;"	property	line:41
+state.displayActive	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      displayAll: "",$/;"	property	line:42
+state.displayCompleted	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      displayActive: "",$/;"	property	line:43
+state.dirty	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^      displayCompleted: "",$/;"	property	line:44
+submitForm	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  submitForm(e) {$/;"	function	line:55
+filterChange	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  filterChange(filterValue) {$/;"	function	line:60
+handleInput	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  handleInput(e) {$/;"	function	line:64
+clearContent	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  clearContent () {$/;"	function	line:67
+render	/Users/josephstephens/Desktop/To-Do/client/containers/HomepageContainer.js	/^  render() {$/;"	function	line:71

@@ -10,7 +10,7 @@ export const addToDo = (item) => ({
 
 export const removeToDo = (toDoItem) => ({
   type: DELETE_TODO,
-  payload: toDoItem
+  to_do: toDoItem
 });
 
 export const removeAllToDo = () => ({
@@ -56,7 +56,7 @@ return dispatch => {
 export const deleteToDo = (toDoItem) => dispatch => {
   return axios.delete(`/api/todo/${toDoItem}`)
     .then(res => {
-      dispatch(getAllToDos());
+      dispatch(removeToDo(toDoItem));
     }).catch(err => err);
 };
 
