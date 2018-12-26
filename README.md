@@ -13,6 +13,7 @@ clone the project and run
 
 node v8.4.0
 npm v6.5.0
+postgres
 
 
 <!-- [![Build Status](https://travis-ci.org/halleycarleton/stackathon.svg?branch=master)](https://travis-ci.org/halleycarleton/stackathon) -->

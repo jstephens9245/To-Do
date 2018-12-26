@@ -4,4 +4,6 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-sync	/Users/josephstephens/Desktop/To-Do/server/models/db.js	/^function sync(retries = 0, maxRetries = 5) {$/;"	function	line:26
+To-Do's Project	/Users/josephstephens/Desktop/To-Do/README.md	/^#To-Do's Project$/;"	function	line:1
+Initialize	/Users/josephstephens/Desktop/To-Do/README.md	/^#Initialize$/;"	function	line:3
+Requires	/Users/josephstephens/Desktop/To-Do/README.md	/^#Requires$/;"	function	line:12
