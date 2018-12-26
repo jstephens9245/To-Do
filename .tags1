@@ -4,4 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-sync	/Users/josephstephens/Desktop/To-Do/server/models/db.js	/^function sync(retries = 0, maxRetries = 5) {$/;"	function	line:26

@@ -20,7 +20,7 @@ app.use(express.static('dist'));
 app.use(express.static('public'));
 
 app.use(session({
-  secret           : 'dalek',
+  secret           : 'ToDo',
   resave           : false,
   saveUninitialized: false,
 }));
