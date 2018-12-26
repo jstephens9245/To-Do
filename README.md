@@ -6,7 +6,7 @@ clone the project and run
 
 ```sh
  $ npm install
- $ npm run build /for production || npm run build-dev || npm run build-watch
+ $ npm run build /for production || /for dev npm run build-dev || npm run build-watch
  $ npm run start
 ```
 #Requires
